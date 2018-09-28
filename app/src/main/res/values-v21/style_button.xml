@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Button" parent="Base.Widget.AppCompat.Button">
+        <item name="android:padding">20px</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:drawablePadding">20px</item>
+    </style>
+
+    <style name="Button.Inverse" parent="Button">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+
+    <style name="Button.Style" parent="Button.Inverse">
+        <item name="android:background">@drawable/selector_button_style</item>
+
+    </style>
+
+
+
+    <style name="Button.title" parent="Button.Inverse">
+        <item name="android:background">@drawable/selector_button_title</item>
+    </style>
+
+
+
+
+
+
+</resources>
+ 

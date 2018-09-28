@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_menu_books1"
+            android:icon="@drawable/ic_menu_books1"
+            android:title="Import" />
+        <item
+            android:id="@+id/nav_menu_books2"
+            android:icon="@drawable/ic_menu_books2"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_menu_books3"
+            android:icon="@drawable/ic_menu_books3"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_menu_books4"
+            android:icon="@drawable/ic_menu_books4"
+            android:title="Tools" />
+        <item
+            android:id="@+id/nav_menu_books5"
+            android:icon="@drawable/ic_menu_books5"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_menu_books6"
+            android:icon="@drawable/ic_menu_books6"
+            android:title="Write" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
